@@ -1,0 +1,34 @@
+{
+    "name": "nwidart/recetas",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+
+"extra": {
+        "laravel": {
+            "dont-discover": []
+        },
+    "merge-plugin": {
+        "include": [
+            "Modules/*/composer.json"
+        ]
+    }
+},
+
+    "autoload": {
+        "psr-4": {
+            "Modules\\Recetas\\": "app/",
+            "Modules\\Recetas\\Database\\Factories\\": "database/factories/",
+            "Modules\\Recetas\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Recetas\\Tests\\": "tests/"
+        }
+    }
+}

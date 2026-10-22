@@ -1,0 +1,11 @@
+{
+    "name": "Recetas",
+    "alias": "recetas",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Recetas\\Providers\\RecetasServiceProvider"
+    ],
+    "files": []
+}

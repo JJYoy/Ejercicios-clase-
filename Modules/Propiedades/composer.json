@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/propiedades",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Propiedades\\": "app/",
+            "Modules\\Propiedades\\Database\\Factories\\": "database/factories/",
+            "Modules\\Propiedades\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Propiedades\\Tests\\": "tests/"
+        }
+    }
+}
